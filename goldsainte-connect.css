@@ -1,0 +1,822 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.partner-hero-white-icon {
+  width: 1494px;
+  position: relative;
+  height: 840px;
+  object-fit: cover;
+  z-index: 0;
+}
+.heading19,
+.paragraph70 {
+  position: relative;
+  display: inline-block;
+  min-width: 300px;
+}
+.heading19 {
+  align-self: stretch;
+  line-height: 45px;
+}
+.paragraph70 {
+  width: 100%;
+  font-size: var(--font-size-xl);
+  line-height: 20px;
+  font-family: var(--font-athiti);
+  max-width: 800px;
+}
+.heading-parent11 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  min-width: 300px;
+  max-width: 900px;
+}
+.partner-hero-title-inner {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.goldsainte-connect-hero,
+.partner-hero-title,
+.partner-hero-title-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partner-hero-title {
+  width: calc(100% - 373px);
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 50px);
+  right: 189px;
+  left: 184px;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.goldsainte-connect-hero {
+  align-self: stretch;
+  background-color: var(--neutral-colors-white);
+  height: 540px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 0;
+  font-size: var(--font-size-26xl);
+}
+.heading20 {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.frame-franchisee-territory1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  max-width: 1121px;
+}
+.paragraph71 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-athiti);
+}
+.frame-body1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mini) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 300px;
+}
+.goldsainte-one-membership-perk-icon {
+  width: 400px;
+  position: relative;
+  border-radius: var(--br-xl);
+  height: 225.1px;
+  object-fit: cover;
+}
+.frame-body-group {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 56px;
+}
+.frame-body-group,
+.goldsainte-connect-h3,
+.goldsainte-connect2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goldsainte-connect2 {
+  width: 100%;
+  border-radius: var(--br-xl);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  background-image: url(./public/goldsainte-connect@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 1121px;
+}
+.goldsainte-connect-h3 {
+  align-self: stretch;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-165xl);
+  z-index: 1;
+  text-align: left;
+  color: var(--neutral-colors-white);
+}
+.hamburger-menu4-icon {
+  height: 16.4px;
+  width: 25.4px;
+  position: relative;
+}
+.hamburger-menu4-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  width: 45.4px;
+  height: 36.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.goldsainte-connect-main-nav {
+  width: 45px;
+  margin: 0 !important;
+  position: absolute;
+  top: 38px;
+  left: 43px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  z-index: 2;
+}
+.primary-horizontal-logo-partne {
+  text-decoration: none;
+  width: 171.9px;
+  position: relative;
+  height: 35px;
+  background-image: url(./public/primaryhorizontallogopartner@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.goldsainte-connect-main-logo {
+  width: 172px;
+  margin: 0 !important;
+  position: absolute;
+  top: 42px;
+  left: calc(50% - 86.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 3;
+}
+.why-choose-goldsainte {
+  margin: 0;
+}
+.headings6 {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 300px;
+}
+.headings-frame {
+  align-self: stretch;
+  height: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-31xl);
+  box-sizing: border-box;
+}
+.expanded-opportunities-luxury-icon {
+  width: 100px;
+  position: relative;
+  height: 100px;
+  object-fit: cover;
+}
+.expanded-opportunities2 {
+  line-height: 30px;
+}
+.expanded-opportunities1 {
+  margin: 0;
+  font-size: var(--font-size-mid);
+}
+.grow-your-business {
+  line-height: 20px;
+}
+.grow-your-business-with-goldsa {
+  margin: 0;
+  font-size: var(--font-size-sm);
+}
+.blank-line128 {
+  margin: 0;
+  color: var(--color-gray-100);
+}
+.paragraph72 {
+  width: 255px;
+  position: relative;
+  display: inline-block;
+  height: 174px;
+  flex-shrink: 0;
+}
+.frame-expanded-opportunities-l {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 244px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.expanded-opportunities {
+  width: 255px;
+  position: relative;
+  height: 244px;
+}
+.nationwide-reach-all-over-the-icon {
+  width: 99.3px;
+  position: relative;
+  height: 100px;
+  object-fit: cover;
+}
+.frame-nationwide-reach-all-ove {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 243.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nationwide-reach {
+  width: 255px;
+  position: relative;
+  height: 243.6px;
+}
+.money-flow-business-icon {
+  width: 100.7px;
+  position: relative;
+  height: 100px;
+  object-fit: cover;
+}
+.expanded-opportunities-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px 49px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-athiti);
+}
+.frame-goldsainte-connect,
+.goldsainte-connect-h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-goldsainte-connect {
+  width: 100%;
+  max-width: 1121px;
+}
+.goldsainte-connect-h1 {
+  align-self: stretch;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  padding: var(--padding-11xl) var(--padding-165xl);
+  z-index: 4;
+  text-align: left;
+}
+.frame-requirments-child {
+  width: 1491px;
+  position: relative;
+  background: linear-gradient(
+    263.13deg,
+    rgba(190, 169, 103, 0.4) 34.38%,
+    rgba(255, 255, 255, 0)
+  );
+  height: 526px;
+  display: none;
+}
+.black-car-men-pick-up-outside-icon {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  height: 329.2px;
+  object-fit: cover;
+  min-width: 300px;
+}
+.requirements {
+  text-transform: capitalize;
+}
+.span81 {
+  text-transform: uppercase;
+}
+.feature-title3 {
+  width: 100%;
+  height: 48px;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 450px;
+  max-width: 700px;
+}
+.valid-company-registration {
+  margin-bottom: 0;
+}
+.valid-company-registration-plu {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 19px;
+}
+.text7 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-athiti);
+  color: inherit;
+}
+.feature-title-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mini) 0;
+  box-sizing: border-box;
+  min-width: 300px;
+}
+.frame-requirments,
+.goldsainte-connect-h2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-requirments {
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 22px 48px;
+  max-width: 1121px;
+}
+.goldsainte-connect-h2 {
+  align-self: stretch;
+  background: linear-gradient(85.53deg, #fff, #bcaa72);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-165xl);
+  z-index: 5;
+  text-align: left;
+}
+.heading21 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 300px;
+}
+.you-are-invited5 {
+  color: var(--color-gray-100);
+}
+.span82 {
+  color: var(--color-lightslategray);
+}
+.infogoldsaintecom18 {
+  text-decoration: underline;
+}
+.infogoldsaintecom17 {
+  color: inherit;
+}
+.paragraph77 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  display: inline-block;
+  min-width: 300px;
+}
+.heading-parent12 {
+  width: 1126px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.divider-icon6 {
+  width: 1920px;
+  position: relative;
+  height: 1px;
+}
+.divider-wrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.social-media-icon-squareinsta6,
+.social-media-icon-squarelinke7 {
+  width: 36px;
+  position: relative;
+  height: 36px;
+  cursor: pointer;
+}
+.social-media-icon-squareinsta6 {
+  object-fit: cover;
+}
+.group-div,
+.social-media-container33 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 44px);
+}
+.social-media-container33 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.group-div {
+  width: 88px;
+  height: 36px;
+}
+.contact-info923 {
+  width: 88px;
+  position: relative;
+  height: 36px;
+}
+.goldsainte-gold-logo-goldsaint-icon {
+  width: 46px;
+  position: relative;
+  height: 46px;
+  object-fit: cover;
+}
+.email6 {
+  width: 533.9px;
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+}
+.contact-info923-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.frame-parent7 {
+  gap: var(--gap-3xs);
+}
+.frame-parent7,
+.goldsainte-connect-social {
+  align-self: stretch;
+  height: 189px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.paragraph78 {
+  text-decoration: none;
+  width: 70px;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 70px;
+}
+.goldsainte-connect-important-l {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+  min-width: 300px;
+  max-width: 1121px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.goldsainte-connect-footer {
+  align-self: stretch;
+  height: 236px;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-165xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  z-index: 6;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-athiti);
+}
+.paragraph82 {
+  width: 100px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 100px;
+  cursor: pointer;
+}
+.goldsainte-connect-info-links1 {
+  width: 996px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  min-width: 300px;
+  max-width: 1121px;
+}
+.goldsainte-connect-info-links,
+.goldsainte-connect1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.goldsainte-connect-info-links {
+  align-self: stretch;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-165xl) var(--padding-15xl);
+  z-index: 7;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-athiti);
+}
+.goldsainte-connect1 {
+  width: 100%;
+  position: relative;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-arsenal);
+}
+@media screen and (max-width: 1200px) {
+  .heading19 {
+    font-size: var(--font-size-16xl);
+    line-height: 35px;
+  }
+  .heading20 {
+    font-size: var(--font-size-11xl);
+    line-height: 30px;
+  }
+  .goldsainte-connect-h3 {
+    padding-left: var(--padding-51xl);
+    padding-right: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+  .hamburger-menu4-icon {
+    display: flex;
+  }
+  .headings6 {
+    font-family: var(--font-arsenal);
+    font-size: var(--font-size-11xl);
+    line-height: 30px;
+  }
+  .goldsainte-connect-h1 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .feature-title3 {
+    font-size: var(--font-size-11xl);
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .heading19 {
+    font-size: var(--font-size-6xl);
+    line-height: 25px;
+  }
+  .paragraph70 {
+    font-size: var(--font-size-mini);
+    line-height: 15px;
+  }
+  .heading20 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .goldsainte-one-membership-perk-icon {
+    width: 342px;
+    height: 199px;
+  }
+  .goldsainte-connect-h3 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .headings6 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .goldsainte-connect-h1 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .feature-title3 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .goldsainte-connect-h2 {
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .paragraph78 {
+    font-size: var(--font-size-sm);
+    line-height: 20px;
+  }
+  .goldsainte-connect-important-l {
+    gap: var(--gap-mini);
+  }
+  .goldsainte-connect-footer {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .paragraph82 {
+    font-size: var(--font-size-sm);
+    line-height: 20px;
+  }
+  .goldsainte-connect-info-links {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .heading19 {
+    font-size: var(--font-size-6xl);
+    line-height: 25px;
+  }
+  .paragraph70 {
+    font-size: var(--font-size-mini);
+    line-height: 15px;
+  }
+  .partner-hero-title-inner {
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .heading20 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .paragraph71 {
+    font-family: var(--font-athiti);
+  }
+  .goldsainte-one-membership-perk-icon {
+    width: 342px;
+  }
+  .goldsainte-connect-h3 {
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .headings6 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .goldsainte-connect-h1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .feature-title3 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .goldsainte-connect-h2 {
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .goldsainte-connect-info-links {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+.logomark-seal-green-1 {
+  text-decoration: none;
+  width: 79px;
+  position: relative;
+  height: 79px;
+  background-image: url(./public/logomarksealgreen-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.line-about {
+  width: 469px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 1px;
+}
+.franchise {
+  text-decoration: none;
+  position: relative;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: inherit;
+}
+.nav,
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.nav {
+  position: relative;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  padding: var(--padding-mini) 0;
+  box-sizing: border-box;
+  gap: var(--gap-20xl);
+  opacity: 0;
+  height: 100%;
+  max-width: 90%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-athiti);
+}
+.nav.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}
+@media screen and (max-width: 960px) {
+  .sections {
+    display: flex;
+  }
+}
